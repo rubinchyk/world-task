@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    input, textarea {
+        max-width: 500px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px 0;
+        width: 100%;
+    }
+ 
+    button {
+        border: 1px solid orange;
+        background-color: orange;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        max-width: 500px;
+        margin: 10px 0;
+
+        &:hover {
+            background-color: white;
+            color: orange;
+        }
+    }
+}

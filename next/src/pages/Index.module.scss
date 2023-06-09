@@ -1,0 +1,16 @@
+.plus-icon {
+    color: orange;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid orange;
+    margin: 20px 0;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: orange;
+        color: white;
+    }
+}

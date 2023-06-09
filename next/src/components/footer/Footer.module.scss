@@ -1,0 +1,26 @@
+.footer {
+    height: 50px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-shrink: 0;
+
+    .footer-menu {
+        padding: 0 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover {
+            font-weight: bold;
+            color: #000;
+            cursor: pointer;
+        }
+    }
+
+    .footer-copyright {
+        padding: 0 20px;
+        text-transform: uppercase;
+    }
+}
